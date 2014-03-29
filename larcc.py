@@ -34,7 +34,7 @@ from scipy.sparse import vstack,hstack,csr_matrix,coo_matrix,lil_matrix,triu
 
 from lar2psm import *
 
-ACCEL = False
+ACCEL = True
 if ACCEL == False:
 	from matrixutil_no_accel import *
 else:

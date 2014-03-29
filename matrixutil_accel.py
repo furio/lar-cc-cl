@@ -42,7 +42,8 @@ from termcolor import colored
 
 logging.basicConfig(format='%(levelname)s [%(filename)s, %(funcName)s] >> %(message)s', level=logging.ERROR)
 
-url = "http://127.0.0.1:3000/multiply";
+# url = "http://127.0.0.1:3000/multiply"
+url = "http://127.0.0.1:3000/services/multiply/execute"
 
 def csrToJSON(CSRm):
 
